@@ -9,7 +9,6 @@ module.exports = {
 			.items(
 				joi.array()
 					.items(
-						joi.number(),
 						joi.array()
 					)
 			)
